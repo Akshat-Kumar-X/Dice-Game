@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.container {
+    padding: 30px 50px 40px 50px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    width: 30% !important;
+    padding-left: auto;
+    background-color: rgba(255, 255, 255, 0.282);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 130px;
+}
+
+.Players {
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dices {
+    min-width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    position: relative;
+    top: 70px;
+    margin: auto;
+    height: 50px;
+    width: 30% !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.282);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
